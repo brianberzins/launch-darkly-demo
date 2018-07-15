@@ -1,0 +1,7 @@
+# intelliJ
+.idea/
+*.iml
+
+# golang
+vendor/
+launch-darkly-demo
