@@ -40,10 +40,10 @@ func main() {
 
 	if displayHostname {
 		// application code to show the feature
-		fmt.Println("Showing your feature to " + *user.Key)
+		fmt.Printf("hello-world from %s", os.Getenv("HOSTNAME"))
 	} else {
 		// the code to run if the feature is off
-		fmt.Println("Not showing your feature to " + *user.Key)
+		fmt.Println("hello-world")
 	}
 
 }
